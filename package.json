@@ -1,0 +1,40 @@
+{
+  "name": "context-slim",
+  "version": "1.0.0",
+  "description": "Zero-dependency semantic AST context minifier for AI coding agents (Cursor, Claude Code, Aider, Antigravity). Strips implementation bodies while preserving full type signatures and docstrings, slashing context token usage by 80%+.",
+  "main": "src/index.js",
+  "bin": {
+    "context-slim": "bin/context-slim.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/**/*.test.js",
+    "start": "node bin/context-slim.js"
+  },
+  "keywords": [
+    "ai",
+    "coding-agent",
+    "context-window",
+    "token-saver",
+    "ast",
+    "cursor",
+    "claude-code",
+    "antigravity",
+    "prompt-engineering",
+    "typescript",
+    "python"
+  ],
+  "author": "Amit Gupta <32707843+yoursamitgupta@users.noreply.github.com> (https://github.com/yoursamitgupta)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoursamitgupta/context-slim.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yoursamitgupta/context-slim/issues"
+  },
+  "homepage": "https://github.com/yoursamitgupta/context-slim#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
